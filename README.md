@@ -1,6 +1,3 @@
-# twitter-clone
-
-
 <div align="center">
 
 # Twitter-clone
@@ -15,6 +12,7 @@
 
 ## Deployed on herokuapp
 [View The Live Project](http://clonetwit.herokuapp.com/)
+http://clonetwit.herokuapp.com/
 
 ### for now only front-end part is working.
 ### due to some errors back-end part is not working properly.
@@ -35,11 +33,11 @@
 ## Login
 ![New Tweet](Screenshots/login.png)
 
-## Signuo
+## Signup
 ![New Tweet](Screenshots/signup.png)
 
 ## Tweet
-![Tweet](Screenshots/tweet.png)
+![Tweet](Screenshots/home.png)
 
 
 ## Feature
@@ -47,7 +45,7 @@
 * Login - Working
 * Post - Working
 * Comment - issues
-* Follow - WOrking
+* Follow - Working
 
 <br>
 
@@ -62,6 +60,8 @@
   <li>Express</li>
   <li>axios</li>
   <li>React</li>
+  <li>React-Router</li>
+	
 </ul>
 
 
@@ -72,8 +72,8 @@
 </ul>
 
 
-
-## routes
+## backend-routes
+### routes
 
 router.post(
 	'/',
